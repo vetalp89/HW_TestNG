@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="firstSuit">
+    <parameter name="initialString" value="Hello"></parameter>
+    <parameter name="expectedReversedString" value="olleH"></parameter>
+    <test name="firstTest">
+        <classes>
+            <class name="lesson6.testTask1"></class>
+            <class name="lesson6.testTask2"></class>
+            <class name="lesson6.testTask5"></class>
+        </classes>
+    </test>
+</suite>
